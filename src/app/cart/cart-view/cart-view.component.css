@@ -1,0 +1,11 @@
+.spaced-item {
+    margin-bottom: 10px; /* Add space below each item */
+  }
+  
+  .spaced-item:last-child {
+    margin-bottom: 0; /* Optional: Remove margin after the last item */
+  }
+  
+  .price{
+    font-weight: 800;
+  }

@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'amazin-animal-paintings'`, () => {
+  it(`should have as title 'List of Paintings'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('amazin-animal-paintings');
+    expect(app.title).toEqual('List of Paintings');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('amazin-animal-paintings app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('List of Paintings app is running!');
   });
 });
